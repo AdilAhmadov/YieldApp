@@ -28,5 +28,9 @@
             }
             return output;
         }
+        public static IEnumerable<int> Get()
+        {
+            return GetPrimeNumbers();
+        }
     }
 }
